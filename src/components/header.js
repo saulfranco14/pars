@@ -1,8 +1,8 @@
 import * as React from "react"
+import Navegacion from './nav';
 import {
   HeaderDiv,
   DivPrincipal,
-  Navegation,
   TitleHeader
 } from '../styled-components/header.styles';
 
@@ -14,9 +14,7 @@ const Header = () => {
           <TitleHeader>
             Pars
           </TitleHeader>
-          <Navegation>
-            Nav
-          </Navegation>
+        <Navegacion/>
         </DivPrincipal>
       </HeaderDiv>
     </React.Fragment>

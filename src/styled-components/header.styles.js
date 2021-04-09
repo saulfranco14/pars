@@ -23,7 +23,3 @@ export const DivPrincipal = styled.div`
 
     }
 `
-
-export const Navegation = styled.p`
-    color: white;
-`
